@@ -88,7 +88,7 @@ deparse2 <- function(x) {
 }
 
 new_id <- function() {
-  basename(tempfile(""))
+  htmlwidgets:::createWidgetId()
 }
 
 names2 <- function(x) {
